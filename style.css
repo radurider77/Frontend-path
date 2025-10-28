@@ -4,3 +4,9 @@ button {
 img {
   object-fit: cover;
 }
+.buton1 {
+  background-color: red;
+}
+#buton1 {
+  background-color: blue;
+}
