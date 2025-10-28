@@ -7,6 +7,15 @@ img {
 .buton1 {
   background-color: red;
 }
+
+button#buton1 {
+  background: #000;
+}
+
 #buton1 {
   background-color: blue;
+}
+
+#buton1 {
+  background-color: green;
 }
