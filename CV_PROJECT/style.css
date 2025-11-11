@@ -1,0 +1,20 @@
+.developer {
+  color: green;
+}
+.Skills {
+  color: green;
+}
+.Education {
+  color: green;
+}
+.diploma {
+  color: blue;
+}
+.container {
+  display: block;
+}
+div {
+  width: 500px;
+  padding: 10px;
+  border: solid black;
+}
