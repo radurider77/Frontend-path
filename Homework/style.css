@@ -1,4 +1,4 @@
-#number1 {
+/* #number1 {
   color: green;
 }
 #number2 {
@@ -30,4 +30,39 @@
 }
 .EFGHIJ {
   color: brown;
+} */
+
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-spacing: 10px;
 }
+
+
+th,
+td {
+  
+  padding: 8px 10px;
+}
+
+.progress{
+  background-color: green;
+  color: white;
+}
+
+.open{
+  background-color: orange;
+  color: black;
+}
+
+.on-hold{
+  background-color: red;
+  color: white;
+}
+
+.gray{
+  background-color: lightgray;
+}
+
