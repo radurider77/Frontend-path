@@ -65,3 +65,41 @@ td {
   background-color: lightgray;
 }
 
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.graydark{
+  background-color: darkgray;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+#table2 {
+  border: 3px solid black;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+border-collapse: collapse;
+}
+ 
+#table2 td,
+#table2 th {
+  background-clip: padding-box;
+  border: 3px solid black;
+  border: solid black;
+}
+
+#table2 td{
+  color: transparent
+}
