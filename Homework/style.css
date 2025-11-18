@@ -42,46 +42,45 @@ table {
 
 th,
 td {
-  
   padding: 8px 10px;
 }
 
-.progress{
+.progress {
   background-color: green;
   color: white;
 }
 
-.open{
+.open {
   background-color: orange;
   color: black;
 }
 
-.on-hold{
+.on-hold {
   background-color: red;
   color: white;
 }
 
-.gray{
+.gray {
   background-color: lightgray;
 }
 
-.red{
+.red {
   background-color: red;
 }
 
-.green{
+.green {
   background-color: green;
 }
 
-.graydark{
+.graydark {
   background-color: darkgray;
 }
 
-.blue{
+.blue {
   background-color: blue;
 }
 
-.yellow{
+.yellow {
   background-color: yellow;
 }
 
@@ -90,9 +89,9 @@ td {
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
-border-collapse: collapse;
+  border-collapse: collapse;
 }
- 
+
 #table2 td,
 #table2 th {
   background-clip: padding-box;
@@ -100,6 +99,40 @@ border-collapse: collapse;
   border: solid black;
 }
 
-#table2 td{
-  color: transparent
+#table2 td {
+  color: transparent;
+}
+
+#table1 tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.table3 thead {
+  background-color: red;
+}
+
+.bluer1 {
+  background-color: blue;
+}
+
+.greenr2 {
+  background-color: green;
+}
+
+.grayr2 {
+  background-color: gray;
+}
+
+.yellowr3 {
+  background-color: yellow;
+}
+
+.redr1 {
+  background-color: red;
+}
+.table3 {
+  width: 400px;
+  height: 400px;
+  border-collapse: separate;
+  background-color: black;
 }
