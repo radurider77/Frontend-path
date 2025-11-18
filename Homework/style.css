@@ -136,3 +136,13 @@ td {
   border-collapse: separate;
   background-color: black;
 }
+
+html::selection {
+  color: orange;
+  background: darkgreen;
+}
+
+mark {
+  background-color: red;
+  color: white;
+}
