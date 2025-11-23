@@ -146,3 +146,15 @@ mark {
   background-color: red;
   color: white;
 }
+
+iframe{
+  border: 1px solid black;
+   width: 100%;
+}
+
+.preference {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0.5rem;
+}
