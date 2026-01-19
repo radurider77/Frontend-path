@@ -1,173 +1,45 @@
-/* #number1 {
-  color: green;
-}
-#number2 {
-  color: orange;
-}
-#number3 {
-  color: pink;
-}
-#number4 {
-  color: orange;
-}
-#number5 {
-  color: green;
-}
-#number6 {
-  color: pink;
-}
-#number7 {
-  color: green;
-}
-#number8 {
-  color: orange;
-}
-#number9 {
-  color: pink;
-}
-.ABCD {
-  color: purple;
-}
-.EFGHIJ {
-  color: brown;
-} */
 
-table {
-  border-collapse: collapse;
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  border-spacing: 10px;
+.pagina{
+    height: 600px;
+    width: 490px;
+    border-radius: 3%;
+    background-color: white;
+    align-items: center;
+   background: white
 }
 
-th,
-td {
-  padding: 8px 10px;
-}
-
-.progress {
-  background-color: green;
-  color: white;
-}
-
-.open {
-  background-color: orange;
-  color: black;
-}
-
-.on-hold {
-  background-color: red;
-  color: white;
-}
-
-.gray {
-  background-color: lightgray;
-}
-
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
-
-.graydark {
-  background-color: darkgray;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-#table2 {
-  border: 3px solid black;
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  border-collapse: collapse;
-}
-
-#table2 td,
-#table2 th {
-  background-clip: padding-box;
-  border: 3px solid black;
-  border: solid black;
-}
-
-#table2 td {
-  color: transparent;
-}
-
-#table1 tbody tr:nth-child(odd) {
-  background-color: lightgray;
-}
-
-.table3 thead {
-  background-color: red;
-}
-
-.bluer1 {
-  background-color: blue;
-}
-
-.greenr2 {
-  background-color: green;
-}
-
-.grayr2 {
-  background-color: gray;
-}
-
-.yellowr3 {
-  background-color: yellow;
-}
-
-.redr1 {
-  background-color: red;
-}
-.table3 {
-  width: 400px;
-  height: 400px;
-  border-collapse: separate;
-  background-color: black;
-}
-
-html::selection {
-  color: orange;
-  background: darkgreen;
-}
-
-mark {
-  background-color: red;
-  color: white;
-}
-
-iframe {
-  border: 1px solid black;
-  width: 100%;
-}
-
-.preference {
+body {
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
-  width: 60%;
-  margin: 0.5rem;
-}
-aside {
-  width: 40%;
-  padding-left: 0.5rem;
-  margin-left: 0.5rem;
-  float: right;
-  box-shadow: inset 5px 0 5px -5px #29627e;
-  font-style: italic;
-  color: #29627e;
+  justify-content: center; 
+  align-items: center;  
+  background-color: rgb(20, 20, 20);
 }
 
-aside > p {
-  margin: 0.5rem;
+#rosu{
+    margin-block-start: 20px;
+     margin-inline-start: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: red;
+    display: inline-block;
 }
+#portocaliu{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: orange;
+}
+#verde{
+    
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: green;
+}
+ 
