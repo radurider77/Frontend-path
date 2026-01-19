@@ -1,0 +1,83 @@
+.focaccia {
+    background-color: green;
+}
+
+#foc {
+    background: white;
+}
+
+p {
+    background-color: rgba(236, 126, 1, 0.911) !important;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    background-color: orange;
+}
+
+/* p:first-child{
+    border: 2px solid rebeccapurple;
+}
+
+h1 > span {
+    font-size: 25px;
+    background-color: blue;
+}
+
+p:nth-child(2n+2) {
+    font-size: 3rem;
+}
+
+p:nth-child(17) {
+    font-size: 3rem;
+}
+
+
+
+div span {
+    background-color: brown;
+} */
+
+
+
+h1 {
+    
+    background-color: brown;
+    span {
+         background-color: blue;
+    }
+    div {
+        border: 10px;
+        padding: 10px;
+        background-color: sienna; 
+    }
+}
+
+#animate {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10%;
+    background-color: darkgreen;
+    animation: animate 5s infinite ease;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0) rotate(90deg); 
+    }
+
+    20% {
+        transform: translateX(600px);
+    }
+
+    80% {
+        transform: translateX(600px);
+    }
+
+    100% {
+        transform: translateX(1200px)
+    }
+}
