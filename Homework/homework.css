@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: monospace;
+}
+
+header{
+    color: gray;
+}
+
+#terminal{
+    color: white;
+
+}
+
+
+ul{
+    margin-inline-start: 15px;
+     margin-inline-end: 10px;
+}
+
+.words{
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+}
+
+
+main{
+    
+    color: white;
+    font-family: monospace;
+}
+
+.green {
+    color: lightgreen;
+}
+.blue{
+    color:lightskyblue
+}
+
+.dot{
+border-radius: 50%;
+width: 10px;
+height: 10px;
+color: lightblue;
+}
