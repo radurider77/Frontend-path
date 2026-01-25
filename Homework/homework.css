@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    /* background-color: white; */
     font-family: monospace;
 }
 
@@ -41,5 +41,16 @@ main{
 border-radius: 50%;
 width: 10px;
 height: 10px;
-color: lightblue;
+background-color: lightblue;
+display: inline-block;
+}
+
+.card{
+    height: 600px;
+    width: 800px;
+    background-color: black;
+}
+
+.gray{
+    background-color: gray;
 }
