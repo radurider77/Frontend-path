@@ -20,7 +20,7 @@ body{
 }
 
 img{
- max-height: 50vh;
+ max-height: 100vh;
     max-width: 50vh;
     margin-block-start: 100px;
 }
@@ -73,4 +73,74 @@ img{
 
 .group-text{
   text-align: left;
+}
+
+.group-numbers{
+    text-align: left;
+    margin-inline-start: 40px;
+    height: 100px;
+    width: 100px;
+}
+.buttons{
+    display: flex;
+}
+
+.button{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+text-align: center;
+font-size: large;
+background-color: #EAE2D7;
+border-color: #EAE2D7;
+font-weight: bolder;
+}
+span{
+    font-weight: bolder;
+    margin: 10px;
+    font-size: x-large;
+    
+}
+.group-numbers p{
+    color: #BCB8AD;
+    font-size: large;
+    width: 400px;
+    
+}
+
+.shop{
+    display: flex;
+    
+}
+
+.cart{
+   border: 1px solid;
+height: 80px;
+width: 80px;
+margin-inline-start: 30px;
+background-color: #FEFAEF ;
+}
+
+.total{
+
+    
+}
+
+img{
+    height: 40px;
+}
+
+.order{
+width: 450px;
+border: 1px solid;
+margin-inline-start: 10px;
+background-color: #52311E;
+
+}
+
+.shop p{
+    margin-block-start: 25px;
+font-family: monospace;
+font-size: 22px;
+color: white;
 }

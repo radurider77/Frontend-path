@@ -1,0 +1,45 @@
+
+.pagina{
+    height: 600px;
+    width: 490px;
+    border-radius: 3%;
+    background-color: white;
+    align-items: center;
+   background: white
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  background-color: rgb(20, 20, 20);
+}
+
+#rosu{
+    margin-block-start: 20px;
+     margin-inline-start: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: red;
+    display: inline-block;
+}
+#portocaliu{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: orange;
+}
+#verde{
+    
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: green;
+}
+ 
