@@ -2,11 +2,11 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   /* background-image: linear-gradient(to right, red, yellow); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to top,
     green,
     green 25%,
@@ -14,7 +14,8 @@ body {
     orange 50%,
     purple 50%,
     red
-  );
+  ); */
+background: linear-gradient(to top, purple 10%, yellow 35%, blue);
 }
 
 .bg {
@@ -30,4 +31,41 @@ body {
 .cover {
   background-size: cover;
   background-position-x: 10%;
+}
+
+.star{
+  /* border: 5px solid; */
+background-size: contain;  
+height: 50px;
+width: 50px;
+background-image: url("https://png.pngtree.com/png-clipart/20240822/original/pngtree-learn-about-constellations-with-cartoon-star-png-image_15829366.png")
+}
+.star{
+  /* border: 5px solid; */
+background-size: contain;  
+height: 50px;
+width: 50px;
+background-image: url("https://png.pngtree.com/png-clipart/20240822/original/pngtree-learn-about-constellations-with-cartoon-star-png-image_15829366.png")
+}
+.star{
+  /* border: 5px solid; */
+background-size: contain;  
+height: 50px;
+width: 50px;
+background-image: url("https://png.pngtree.com/png-clipart/20240822/original/pngtree-learn-about-constellations-with-cartoon-star-png-image_15829366.png")
+}
+.star{
+  /* border: 5px solid; */
+background-size: contain;  
+height: 50px;
+width: 50px;
+background-image: url("https://png.pngtree.com/png-clipart/20240822/original/pngtree-learn-about-constellations-with-cartoon-star-png-image_15829366.png")
+}
+.star{
+  /* border: 5px solid; */
+background-size: contain;  
+height: 50px;
+width: 50px;
+background-image: url("https://png.pngtree.com/png-clipart/20240822/original/pngtree-learn-about-constellations-with-cartoon-star-png-image_15829366.png")
+
 }
