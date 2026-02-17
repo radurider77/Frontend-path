@@ -15,8 +15,8 @@ html{
 
 button{
     border-radius: 30px;
-    height: 90px;
-    width: 400px;
+    height: 900px;
+    width: 900px;
     font-size: 50px;
     font-family: monospace;
     
@@ -24,4 +24,5 @@ button{
 
 button:hover{
     background-color: orange;
+    transition: 3s;
 }
