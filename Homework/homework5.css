@@ -11,6 +11,7 @@ body{
     font-size: larger;
     position: fixed;
     width: 100vw;
+    top: 0;
 }
 
 .header{
@@ -20,6 +21,7 @@ body{
     align-items: center;
     font-size: larger;
     position: relative;
+    top: 42px;
 }
 
 span{
@@ -28,6 +30,8 @@ span{
 .content{
     background-color: #ECEB8D;
     height: 200vh;
+    top: 42px;
+    position: relative;
 }
 
 .absolute{
