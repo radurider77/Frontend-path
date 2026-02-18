@@ -8,8 +8,8 @@
   </head>
   <body>
     <div class="container">
+      <div class="nav"><p>Navigation</p></div>
       <div class="head">
-        <div class="nav"><p>Navigation</p></div>
         <div class="header"><p>Header</p></div>
       </div>
       <div class="content">
@@ -20,12 +20,12 @@
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, hic.
         </p>
-        <p>
+        <p id="p" style="font-size: 50px">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, error
           consequatur? Veniam perferendis cumque consectetur culpa debitis quod
           rerum aperiam!
         </p>
-        <p>
+        <p class="paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
           exercitationem architecto quod?
         </p>
@@ -39,7 +39,16 @@
           </strong>
         </p>
         <div class="relative">relative box</div>
+        <div class="space">
+          <div class="fixed"></div>
+          <div class="sticky"></div>
+        </div>
       </div>
     </div>
+    <style>
+      div {
+        background: red;
+      }
+    </style>
   </body>
 </html>

@@ -9,9 +9,11 @@ body{
     height: 50px;
     align-items: center;
     font-size: larger;
-    position: fixed;
+    position: sticky;
     width: 100vw;
-    top: 0;
+ top: 0px;
+ z-index: 2;
+  
 }
 
 .header{
@@ -21,7 +23,8 @@ body{
     align-items: center;
     font-size: larger;
     position: relative;
-    top: 42px;
+  
+    
 }
 
 span{
@@ -30,8 +33,10 @@ span{
 .content{
     background-color: #ECEB8D;
     height: 200vh;
-    top: 42px;
-    position: relative;
+    /* top: 42px;
+    position: sticky; */
+    z-index: 3;
+   
 }
 
 .absolute{
@@ -50,4 +55,43 @@ span{
     position: relative;
  display: flex;
  background-color: red;   
+}
+
+.space{
+    width: 100%;
+    border: 5px solid;
+    height: 400px;
+
+}
+
+.sticky{
+    height: 50px;
+    width: 50px;
+    background-color: lightcoral;
+    position: sticky;
+    top: 0;
+}
+
+.fixed{
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    background-color: green;
+    position: fixed;
+    left: 100px;
+}
+
+.paragraph{
+
+    z-index: -1;
+    position: fixed;
+}
+
+p {
+    font-size: 20px;
+}
+
+#p{
+    font-size: 30px;
 }
