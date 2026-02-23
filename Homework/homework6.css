@@ -1,0 +1,62 @@
+.page{
+    background-color: #1C1B21;
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+}
+
+h1{
+color: white;
+text-align: center;
+margin-block-start: 250px;
+}
+
+.container{
+display: grid;
+    justify-content: center;
+}
+
+.margin{
+    display: grid;
+    justify-content: center;
+width: 300px;
+height: 200px;
+background-color: orange;
+  text-align: left;
+
+}
+
+
+span{
+    color:white;
+    font-family: monospace;
+    /* margin-inline-start: 20px;
+    margin: 0; */
+    
+}
+
+.border{
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    width: 270px;
+    height: 140px;
+    text-align: left;
+}
+
+.padding{
+    display: grid;
+    justify-content: center;
+    background-color: purple;
+    width: 230px;
+    height: 100px;
+   text-align: left;
+}
+
+.content{
+    
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    text-align: left;
+}
